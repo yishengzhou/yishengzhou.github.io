@@ -327,7 +327,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 .heroText h2 span {
 	border: none;
-	color: #FFF;
+	color: #000000;
 	text-transform: uppercase;
 	line-height: 50px;
 	padding-bottom: 0;
@@ -338,11 +338,11 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 .caption {
 	border-bottom: 1px solid #7a7a7a;
 	border-top: 1px solid #7a7a7a;
-	color: #383838;
+	color: #000000;
 	padding: 15px 0;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 30px;
 }
 .heading {
 	padding: 3px 10px;
