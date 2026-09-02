@@ -403,6 +403,20 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 .secPad {
 	padding: 40px 0;
 }
+/* Tighter spacing for the lower profile sections */
+#publication.secPad,
+#award.secPad,
+#grants.secPad,
+#activity.secPad {
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+#publication .heading,
+#award .heading,
+#grants .heading,
+#activity .heading {
+	margin-bottom: 12px;
+}
 /*Intro Content*/
 #introText {
 	padding: 34px 0;
