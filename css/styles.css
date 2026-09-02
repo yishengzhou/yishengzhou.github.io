@@ -273,16 +273,22 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	line-height: 1.6em;
 }
 #publication ol {
+	list-style: none;
 	padding-left: 0;
 	margin-left: 0;
-	list-style-position: inside;
 	margin: 0 0 1em 0;
+	counter-reset: pub-item;
 }
 #publication li {
+	display: block;
 	color: #858585;
 	font-size: 1.1em;
 	line-height: 1.6em;
 	margin-bottom: 0.6em;
+}
+#publication li::before {
+	counter-increment: pub-item;
+	content: counter(pub-item) ". ";
 }
 .darkBg {
 	background: rgb(44, 44, 44);
