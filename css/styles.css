@@ -853,7 +853,14 @@ background: url(../images/bg2.png) top repeat;
 }
 @media (min-width: 768px) {
 .header .navbar-brand {
-	padding-left: 0;
+	padding: 14px 0 10px 0;
+	height: auto;
+	line-height: 1.2;
+}
+.logo {
+	margin: 0;
+	display: block;
+	line-height: 1.2;
 }
 .navbar-nav {
 	float: right;
@@ -861,7 +868,7 @@ background: url(../images/bg2.png) top repeat;
 .navbar-inverse .navbar-nav > li > a {
 	padding: 5px 12px !important;
 	border-radius: 5px;
-	margin: 19px 0px;
+	margin: 15px 0;
 }
 
 }
