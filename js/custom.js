@@ -52,7 +52,7 @@ var customScripts = {
     onePageNav: function () {
 
         		if($('#main-nav ul li:first-child').hasClass('active')){
-					$('#main-nav').css('background','none');
+					$('#main-nav').css('background','#000');
 		}
         $('#mainNav').onePageNav({        
             currentClass: 'active',
