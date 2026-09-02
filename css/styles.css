@@ -408,14 +408,14 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 #award.secPad,
 #grants.secPad,
 #activity.secPad {
-	padding-top: 26px;
-	padding-bottom: 26px;
+	padding-top: 18px;
+	padding-bottom: 18px;
 }
 #publication .heading,
 #award .heading,
 #grants .heading,
 #activity .heading {
-	margin-bottom: 12px;
+	margin-bottom: 8px;
 }
 /*Intro Content*/
 #introText {
