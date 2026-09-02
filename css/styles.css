@@ -853,22 +853,43 @@ background: url(../images/bg2.png) top repeat;
 }
 @media (min-width: 768px) {
 .header .navbar-brand {
-	padding: 14px 0 10px 0;
+	display: flex;
+	align-items: center;
+	padding: 0 14px 0 0;
 	height: auto;
 	line-height: 1.2;
 }
 .logo {
 	margin: 0;
-	display: block;
+	display: flex;
+	align-items: center;
 	line-height: 1.2;
 }
+.header .navbar {
+	display: flex;
+	align-items: center;
+	min-height: 64px;
+}
+.header .navbar-header {
+	display: flex;
+	align-items: center;
+}
+.header #main-nav {
+	margin-left: auto;
+	padding-left: 0;
+	padding-right: 0;
+}
 .navbar-nav {
-	float: right;
+	float: none;
+	display: flex;
+	align-items: center;
+	margin: 0;
 }
 .navbar-inverse .navbar-nav > li > a {
-	padding: 5px 12px !important;
+	padding: 0 12px !important;
 	border-radius: 5px;
-	margin: 15px 0;
+	margin: 0;
+	line-height: 64px;
 }
 
 }
